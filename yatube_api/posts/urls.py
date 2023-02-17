@@ -1,4 +1,5 @@
-from django.urls import path
+"""Posts app urls."""
+# from django.urls import path
 
 urlpatterns = [
 ]

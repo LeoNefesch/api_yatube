@@ -5,6 +5,7 @@ import sys
 
 
 def main():
+    """Command-line utility main function."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'yatube_api.settings')
     try:
         from django.core.management import execute_from_command_line

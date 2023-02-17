@@ -1,9 +1,12 @@
+"""Missing docstring."""
 from django.contrib import admin
 
 from .models import Comment, Group, Post
 
 
 class PostAdmin(admin.ModelAdmin):
+    """Missing docstring."""
+
     list_display = ('pk', 'text', 'pub_date', 'author')
     search_fields = ('text',)
     list_filter = ('pub_date',)
